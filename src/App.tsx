@@ -7,7 +7,6 @@ import Home from './pages/Home';
 import Doctors from './pages/Doctors';
 import About from './pages/About';
 import Services from './pages/Services';
-import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 
 function AnimatedRoutes() {
@@ -21,7 +20,6 @@ function AnimatedRoutes() {
         <Route path="/services" element={<Layout><Services /></Layout>} />
         <Route path="/contact" element={<Layout><Contact /></Layout>} />
         {/* Secondary pages (still accessible via links) */}
-        <Route path="/gallery" element={<Layout><Gallery /></Layout>} />
       </Routes>
     </AnimatePresence>
   );
